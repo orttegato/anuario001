@@ -1,0 +1,132 @@
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    position: fixed;
+    background-color: black;
+
+    .el-menu-header {
+        font-size: 30px;
+        list-style: none;
+        p{
+            color: white;
+        }
+    }
+
+    .el-menu-header-a {
+        font-size: 30px;
+        list-style: none;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: yellow;
+        }
+    }
+}
+
+.content-header {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    padding-top: 7rem;
+    justify-content: space-between;
+
+}
+
+.content-header-left {
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-size: 80px;
+    position: fixed;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content-header-left {
+        font-size: 40px;
+    }
+}
+
+.content-header-right {
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-size: 80px;
+    position: fixed;
+    right: 10px;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content-header-right {
+        font-size: 40px;
+    }
+}
+
+.content-header-center {
+    width: 600px;
+    align-items: center;
+    display: flex;
+    padding-left: 140px;
+}
+
+@media screen and (max-width: 1200px) {
+    .content-header-center {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content-header-center {
+        display: none;
+    }
+}
+
+.menu-header-detalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    position: fixed;
+    background-color: black;
+    .el-menu-header {
+        font-size: 30px;
+        list-style: none;
+        p{
+            color: white;
+        }
+    }
+
+    .el-menu-header-a {
+        font-size: 30px;
+        list-style: none;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: yellow;
+        }
+    }
+}
