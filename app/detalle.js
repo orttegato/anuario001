@@ -51,7 +51,6 @@ window.onload = () => {
                                             <p>Profesor</p>
                                             <p>${project[0].nombre_docente}</p>
                                             <p>${project[0].correo_docente}</p>
-                                            <p>${project[0].otros_docente}</p>
                                         </div>
                                     </div>
 
