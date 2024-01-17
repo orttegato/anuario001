@@ -3,6 +3,10 @@ window.onload = () => {
 
     let mostrarDetalle = (e) => {
     window.open(`../detalle.html?id=${e.currentTarget.id}`, '_blank');
+
+        if (currentWork) {
+        window.location.href = `/detalle.html?id=${currentWork.Id}`;
+    }
 }
 
 
