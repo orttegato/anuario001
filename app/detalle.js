@@ -1,4 +1,9 @@
 window.onload = () => {
+
+    if (currentWork) {
+        window.location.href = `/detalle.html?id=${currentWork.id}`;
+    }
+    
     let lista = document.querySelector("#usuarios");
     let obtenerParam = (url) => {
         let urlParam = String(url.match(/\?+.+/));
