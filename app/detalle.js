@@ -1,10 +1,4 @@
 window.onload = () => {
-
-    let currentWork
-
-    if (currentWork) {
-        window.location.href = `/detalle.html?id=${currentWork.id}`;
-    }
     
     let lista = document.querySelector("#usuarios");
     let obtenerParam = (url) => {
