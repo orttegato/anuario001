@@ -5,7 +5,7 @@ window.onload = () => {
     window.open(`../detalle.html?id=${e.currentTarget.id}`, '_blank');
 
         if (currentWork) {
-        window.location.href = `/detalle.html?id=${currentWork.Id}`;
+        window.location.href = `anuario001/detalle.html?id=${currentWork.Id}`;
     }
 }
 
